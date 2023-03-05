@@ -9,7 +9,7 @@ const data = {
   "name": "Alias for the CID above"
 };
 
-fetch('https://api.web3.storage/pins', {
+fetch('https://api.nft.storage/pins', {
   method: 'POST',
   headers: headers,
   body: JSON.stringify(data)
